@@ -1,16 +1,16 @@
 [project]
-name = "training"
+name = "sina"
 version = "0.1.0"
-description = "All neccesary tools to train,benchmark and create synthetic data"
+description = "A simple backend and frontend that provide neccesary tools to train,benchmark,modify db tables, scan documents and create synthetic data"
+
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "fastapi[standard]>=0.139.0",
     "imagehash>=4.3.2",
     "numpy>=2.5.0",
     "pillow>=12.2.0",
-    "rich>=15.0.0",
-    "rich-pixels>=3.0.1",
-    "scipy>=1.18.0",
+    "uvicorn>=0.50.0",
 ]
 
 [build-system]
